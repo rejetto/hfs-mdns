@@ -1,3 +1,4 @@
+// @homebridge/ciao 1.3.12 and adapter; esbuild target: node18
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -31,8 +32,6 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-
-// node_modules/tslib/tslib.es6.mjs
 var tslib_es6_exports = {};
 __export(tslib_es6_exports, {
   __addDisposableResource: () => __addDisposableResource,
@@ -556,8 +555,6 @@ var init_tslib_es6 = __esm({
     };
   }
 });
-
-// node_modules/source-map/lib/base64.js
 var require_base64 = __commonJS({
   "node_modules/source-map/lib/base64.js"(exports2) {
     var intToCharMap = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".split("");
@@ -597,8 +594,6 @@ var require_base64 = __commonJS({
     };
   }
 });
-
-// node_modules/source-map/lib/base64-vlq.js
 var require_base64_vlq = __commonJS({
   "node_modules/source-map/lib/base64-vlq.js"(exports2) {
     var base64 = require_base64();
@@ -651,8 +646,6 @@ var require_base64_vlq = __commonJS({
     };
   }
 });
-
-// node_modules/source-map/lib/util.js
 var require_util = __commonJS({
   "node_modules/source-map/lib/util.js"(exports2) {
     function getArg(aArgs, aName, aDefaultValue) {
@@ -952,8 +945,6 @@ var require_util = __commonJS({
     exports2.computeSourceURL = computeSourceURL;
   }
 });
-
-// node_modules/source-map/lib/array-set.js
 var require_array_set = __commonJS({
   "node_modules/source-map/lib/array-set.js"(exports2) {
     var util = require_util();
@@ -1022,8 +1013,6 @@ var require_array_set = __commonJS({
     exports2.ArraySet = ArraySet;
   }
 });
-
-// node_modules/source-map/lib/mapping-list.js
 var require_mapping_list = __commonJS({
   "node_modules/source-map/lib/mapping-list.js"(exports2) {
     var util = require_util();
@@ -1061,8 +1050,6 @@ var require_mapping_list = __commonJS({
     exports2.MappingList = MappingList;
   }
 });
-
-// node_modules/source-map/lib/source-map-generator.js
 var require_source_map_generator = __commonJS({
   "node_modules/source-map/lib/source-map-generator.js"(exports2) {
     var base64VLQ = require_base64_vlq();
@@ -1337,8 +1324,6 @@ var require_source_map_generator = __commonJS({
     exports2.SourceMapGenerator = SourceMapGenerator;
   }
 });
-
-// node_modules/source-map/lib/binary-search.js
 var require_binary_search = __commonJS({
   "node_modules/source-map/lib/binary-search.js"(exports2) {
     exports2.GREATEST_LOWER_BOUND = 1;
@@ -1393,8 +1378,6 @@ var require_binary_search = __commonJS({
     };
   }
 });
-
-// node_modules/source-map/lib/quick-sort.js
 var require_quick_sort = __commonJS({
   "node_modules/source-map/lib/quick-sort.js"(exports2) {
     function swap(ary, x, y) {
@@ -1428,8 +1411,6 @@ var require_quick_sort = __commonJS({
     };
   }
 });
-
-// node_modules/source-map/lib/source-map-consumer.js
 var require_source_map_consumer = __commonJS({
   "node_modules/source-map/lib/source-map-consumer.js"(exports2) {
     var util = require_util();
@@ -2029,8 +2010,6 @@ var require_source_map_consumer = __commonJS({
     exports2.IndexedSourceMapConsumer = IndexedSourceMapConsumer;
   }
 });
-
-// node_modules/source-map/lib/source-node.js
 var require_source_node = __commonJS({
   "node_modules/source-map/lib/source-node.js"(exports2) {
     var SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
@@ -2294,8 +2273,6 @@ var require_source_node = __commonJS({
     exports2.SourceNode = SourceNode;
   }
 });
-
-// node_modules/source-map/source-map.js
 var require_source_map = __commonJS({
   "node_modules/source-map/source-map.js"(exports2) {
     exports2.SourceMapGenerator = require_source_map_generator().SourceMapGenerator;
@@ -2303,8 +2280,6 @@ var require_source_map = __commonJS({
     exports2.SourceNode = require_source_node().SourceNode;
   }
 });
-
-// node_modules/buffer-from/index.js
 var require_buffer_from = __commonJS({
   "node_modules/buffer-from/index.js"(exports2, module2) {
     var toString = Object.prototype.toString;
@@ -2352,8 +2327,6 @@ var require_buffer_from = __commonJS({
     module2.exports = bufferFrom;
   }
 });
-
-// node_modules/source-map-support/source-map-support.js
 var require_source_map_support = __commonJS({
   "node_modules/source-map-support/source-map-support.js"(exports2, module2) {
     var SourceMapConsumer = require_source_map().SourceMapConsumer;
@@ -2822,15 +2795,11 @@ var require_source_map_support = __commonJS({
     };
   }
 });
-
-// node_modules/source-map-support/register.js
 var require_register = __commonJS({
   "node_modules/source-map-support/register.js"() {
     require_source_map_support().install();
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/captured-debug-env.js
 var require_captured_debug_env = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/captured-debug-env.js"(exports2) {
     "use strict";
@@ -2839,8 +2808,6 @@ var require_captured_debug_env = __commonJS({
     exports2.capturedDebugEnv = process.env.DEBUG;
   }
 });
-
-// node_modules/ms/index.js
 var require_ms = __commonJS({
   "node_modules/ms/index.js"(exports2, module2) {
     var s = 1e3;
@@ -2955,8 +2922,6 @@ var require_ms = __commonJS({
     }
   }
 });
-
-// node_modules/debug/src/common.js
 var require_common = __commonJS({
   "node_modules/debug/src/common.js"(exports2, module2) {
     function setup(env) {
@@ -3132,8 +3097,6 @@ var require_common = __commonJS({
     module2.exports = setup;
   }
 });
-
-// node_modules/debug/src/browser.js
 var require_browser = __commonJS({
   "node_modules/debug/src/browser.js"(exports2, module2) {
     exports2.formatArgs = formatArgs;
@@ -3302,8 +3265,6 @@ var require_browser = __commonJS({
     };
   }
 });
-
-// node_modules/debug/src/node.js
 var require_node = __commonJS({
   "node_modules/debug/src/node.js"(exports2, module2) {
     var tty = require("tty");
@@ -3476,8 +3437,6 @@ var require_node = __commonJS({
     };
   }
 });
-
-// node_modules/debug/src/index.js
 var require_src = __commonJS({
   "node_modules/debug/src/index.js"(exports2, module2) {
     if (typeof process === "undefined" || process.type === "renderer" || process.browser === true || process.__nwjs) {
@@ -3487,8 +3446,6 @@ var require_src = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/prerelease-debug.js
 var require_prerelease_debug = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/prerelease-debug.js"(exports2) {
     "use strict";
@@ -3511,8 +3468,6 @@ var require_prerelease_debug = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/package.json
 var require_package = __commonJS({
   "node_modules/@homebridge/ciao/package.json"(exports2, module2) {
     module2.exports = {
@@ -3601,8 +3556,6 @@ var require_package = __commonJS({
     };
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/dns-equal.js
 var require_dns_equal = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/dns-equal.js"(exports2) {
     "use strict";
@@ -3614,8 +3567,6 @@ var require_dns_equal = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/dns-string-utils.js
 var require_dns_string_utils = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/dns-string-utils.js"(exports2) {
     "use strict";
@@ -3646,8 +3597,6 @@ var require_dns_string_utils = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/DNSLabelCoder.js
 var require_DNSLabelCoder = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/DNSLabelCoder.js"(exports2) {
     "use strict";
@@ -3935,8 +3884,6 @@ var require_DNSLabelCoder = __commonJS({
     NonCompressionLabelCoder.INSTANCE = new NonCompressionLabelCoder();
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/ResourceRecord.js
 var require_ResourceRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/ResourceRecord.js"(exports2) {
     "use strict";
@@ -4096,8 +4043,6 @@ var require_ResourceRecord = __commonJS({
     ResourceRecord.RR_DEFAULT_TTL = 4500;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/v4mapped.js
 var require_v4mapped = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/v4mapped.js"(exports2) {
     "use strict";
@@ -4118,8 +4063,6 @@ var require_v4mapped = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/domain-formatter.js
 var require_domain_formatter = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/domain-formatter.js"(exports2) {
     "use strict";
@@ -4334,8 +4277,6 @@ var require_domain_formatter = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/AAAARecord.js
 var require_AAAARecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/AAAARecord.js"(exports2) {
     "use strict";
@@ -4403,8 +4344,6 @@ var require_AAAARecord = __commonJS({
     AAAARecord.DEFAULT_TTL = AAAARecord.RR_DEFAULT_TTL_SHORT;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/ARecord.js
 var require_ARecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/ARecord.js"(exports2) {
     "use strict";
@@ -4468,8 +4407,6 @@ var require_ARecord = __commonJS({
     ARecord.DEFAULT_TTL = ARecord.RR_DEFAULT_TTL_SHORT;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/CNAMERecord.js
 var require_CNAMERecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/CNAMERecord.js"(exports2) {
     "use strict";
@@ -4530,8 +4467,6 @@ var require_CNAMERecord = __commonJS({
     CNAMERecord.DEFAULT_TTL = ResourceRecord_1.ResourceRecord.RR_DEFAULT_TTL;
   }
 });
-
-// node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
   "node_modules/fast-deep-equal/index.js"(exports2, module2) {
     "use strict";
@@ -4565,8 +4500,6 @@ var require_fast_deep_equal = __commonJS({
     };
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/NSECRecord.js
 var require_NSECRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/NSECRecord.js"(exports2) {
     "use strict";
@@ -4701,8 +4634,6 @@ var require_NSECRecord = __commonJS({
     exports2.NSECRecord = NSECRecord;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/OPTRecord.js
 var require_OPTRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/OPTRecord.js"(exports2) {
     "use strict";
@@ -4824,8 +4755,6 @@ var require_OPTRecord = __commonJS({
     OPTRecord.NOT_DNS_SEC_OK_MASK = 32767;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/PTRRecord.js
 var require_PTRRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/PTRRecord.js"(exports2) {
     "use strict";
@@ -4886,8 +4815,6 @@ var require_PTRRecord = __commonJS({
     PTRRecord.DEFAULT_TTL = ResourceRecord_1.ResourceRecord.RR_DEFAULT_TTL;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/SRVRecord.js
 var require_SRVRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/SRVRecord.js"(exports2) {
     "use strict";
@@ -4962,8 +4889,6 @@ var require_SRVRecord = __commonJS({
     SRVRecord.DEFAULT_TTL = 120;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/TXTRecord.js
 var require_TXTRecord = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/TXTRecord.js"(exports2) {
     "use strict";
@@ -5037,8 +4962,6 @@ var require_TXTRecord = __commonJS({
     TXTRecord.DEFAULT_TTL = ResourceRecord_1.ResourceRecord.RR_DEFAULT_TTL;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/records/index.js
 var require_records = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/records/index.js"(exports2) {
     "use strict";
@@ -5062,8 +4985,6 @@ var require_records = __commonJS({
     ResourceRecord_1.ResourceRecord.typeToRecordDecoder.set(16, TXTRecord_1.TXTRecord.decodeData);
   }
 });
-
-// node_modules/@homebridge/ciao/lib/NetworkManager.js
 var require_NetworkManager = __commonJS({
   "node_modules/@homebridge/ciao/lib/NetworkManager.js"(exports2) {
     "use strict";
@@ -5663,8 +5584,6 @@ var require_NetworkManager = __commonJS({
     NetworkManager.POLLING_TIME = 15 * 1e3;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/CiaoService.js
 var require_CiaoService = __commonJS({
   "node_modules/@homebridge/ciao/lib/CiaoService.js"(exports2) {
     "use strict";
@@ -6300,8 +6219,6 @@ var require_CiaoService = __commonJS({
     exports2.CiaoService = CiaoService;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/Question.js
 var require_Question = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/Question.js"(exports2) {
     "use strict";
@@ -6367,8 +6284,6 @@ var require_Question = __commonJS({
     Question.NOT_QU_MASK = 32767;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/coder/DNSPacket.js
 var require_DNSPacket = __commonJS({
   "node_modules/@homebridge/ciao/lib/coder/DNSPacket.js"(exports2) {
     "use strict";
@@ -6804,8 +6719,6 @@ var require_DNSPacket = __commonJS({
     DNSPacket.DNS_PACKET_HEADER_SIZE = 12;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/errors.js
 var require_errors = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/errors.js"(exports2) {
     "use strict";
@@ -6821,8 +6734,6 @@ var require_errors = __commonJS({
     exports2.InterfaceNotFoundError = InterfaceNotFoundError;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/promise-utils.js
 var require_promise_utils = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/promise-utils.js"(exports2) {
     "use strict";
@@ -6835,8 +6746,6 @@ var require_promise_utils = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/MDNSServer.js
 var require_MDNSServer = __commonJS({
   "node_modules/@homebridge/ciao/lib/MDNSServer.js"(exports2) {
     "use strict";
@@ -7418,8 +7327,6 @@ var require_MDNSServer = __commonJS({
     MDNSServer.SENT_PACKETS_TTL = 5e3;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/responder/Announcer.js
 var require_Announcer = __commonJS({
   "node_modules/@homebridge/ciao/lib/responder/Announcer.js"(exports2) {
     "use strict";
@@ -7606,8 +7513,6 @@ var require_Announcer = __commonJS({
     Announcer.CANCEL_REASON = "CIAO ANNOUNCEMENT CANCELLED";
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/tiebreaking.js
 var require_tiebreaking = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/tiebreaking.js"(exports2) {
     "use strict";
@@ -7662,8 +7567,6 @@ var require_tiebreaking = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/responder/Prober.js
 var require_Prober = __commonJS({
   "node_modules/@homebridge/ciao/lib/responder/Prober.js"(exports2) {
     "use strict";
@@ -7897,8 +7800,6 @@ var require_Prober = __commonJS({
     Prober.CANCEL_REASON = "CIAO PROBING CANCELLED";
   }
 });
-
-// node_modules/@homebridge/ciao/lib/responder/QueryResponse.js
 var require_QueryResponse = __commonJS({
   "node_modules/@homebridge/ciao/lib/responder/QueryResponse.js"(exports2) {
     "use strict";
@@ -8001,8 +7902,6 @@ var require_QueryResponse = __commonJS({
     exports2.QueryResponse = QueryResponse;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/responder/QueuedResponse.js
 var require_QueuedResponse = __commonJS({
   "node_modules/@homebridge/ciao/lib/responder/QueuedResponse.js"(exports2) {
     "use strict";
@@ -8090,8 +7989,6 @@ var require_QueuedResponse = __commonJS({
     QueuedResponse.MAX_DELAY = 500;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/responder/TruncatedQuery.js
 var require_TruncatedQuery = __commonJS({
   "node_modules/@homebridge/ciao/lib/responder/TruncatedQuery.js"(exports2) {
     "use strict";
@@ -8160,8 +8057,6 @@ var require_TruncatedQuery = __commonJS({
     exports2.TruncatedQuery = TruncatedQuery;
   }
 });
-
-// node_modules/@homebridge/ciao/lib/util/sorted-array.js
 var require_sorted_array = __commonJS({
   "node_modules/@homebridge/ciao/lib/util/sorted-array.js"(exports2) {
     "use strict";
@@ -8197,8 +8092,6 @@ var require_sorted_array = __commonJS({
     }
   }
 });
-
-// node_modules/@homebridge/ciao/lib/Responder.js
 var require_Responder = __commonJS({
   "node_modules/@homebridge/ciao/lib/Responder.js"(exports2) {
     "use strict";
@@ -9049,8 +8942,6 @@ var require_Responder = __commonJS({
     Responder.INSTANCES = /* @__PURE__ */ new Map();
   }
 });
-
-// node_modules/@homebridge/ciao/lib/index.js
 var require_lib = __commonJS({
   "node_modules/@homebridge/ciao/lib/index.js"(exports2) {
     "use strict";
@@ -9089,8 +8980,6 @@ var require_lib = __commonJS({
     };
   }
 });
-
-// src/mdns.ts
 var mdns_exports = {};
 __export(mdns_exports, {
   getResponder: () => getResponder
@@ -9113,7 +9002,3 @@ function getResponder(options, onError) {
   };
   return responder;
 }
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  getResponder
-});
